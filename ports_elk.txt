@@ -1,0 +1,3 @@
+9200 - elasticsearch
+5601 - kibana
+9600 - logstash
