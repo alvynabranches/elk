@@ -20,7 +20,6 @@ services:
     container_name: kibana
     ports:
       - 5601:5601
-    
     # networks:
     #   - elk
   
@@ -34,6 +33,8 @@ services:
         source: ./logstash_pipeline/
         target: /usr/share/logstash/pipeline
         read_only: true
+    # networks:
+    #   - elk
 
 # networks:
 #   elk:
